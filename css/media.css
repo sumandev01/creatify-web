@@ -1,0 +1,410 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*common css*/
+	.custom_btn {
+	    line-height: 45px;
+	    margin-top: 20px;
+	}
+	.feature_title{
+		font-size: 32px;
+	}
+	/*header css*/
+	#header .container-fluid {
+	    position: relative;
+	}
+	.header_menu {
+	    margin: 20px -35px 0;
+	    padding: 0 34px;
+	    background-color: #000;
+	    position: absolute;
+	    width: 120%;
+	    top: 38px;
+	}
+	.header_menu ul li {
+	    padding-top: 20px;
+	}
+	.header_menu ul li a.active{
+		color: #97ccfe !important;
+	}
+	/*slider css start*/
+	.c_slider_indicators{
+		flex-direction: row;
+		left: 0;
+	}
+	.c_slider_indicators button{
+		margin: 0 10px !important;
+	}
+	.slider_text h1 {
+	    font-size: 32px;
+	    line-height: 40px;
+	}
+	.slider_text p {
+	    margin: 0;
+	    font-size: 16px;
+	}
+	.slider_prev_btn,
+	.slider_next_btn {
+	    display: none;
+	}
+	/*feature 1 css*/
+	.f_bottom {
+		margin: 30px 0 0;
+	    box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.11);
+	}
+	.feature_bottom_btn {
+	    visibility: visible;
+	    opacity: 1;
+	}
+	/*feature 2 css*/
+	.about{
+		margin-left: 0;
+		margin-bottom: 50px;
+	}
+	.about::before {
+	    content: "";
+	    display: none;
+	}
+	#team_member_carousel {
+	    padding: 0;
+	}
+	#team_member_carousel .carousel-indicators {
+	    bottom: -40px;
+	}
+	#team_member_carousel .carousel-indicators button{
+		margin: 0 5px !important;
+		width: 15px !important;
+		height: 15px !important;
+		background-color: #999999 !important;
+		border: 3px solid #cdcbcb !important;
+		border-radius: 50%;
+	}
+	#team_member_carousel .carousel-indicators button:hover{
+		opacity: 1;
+	}
+	.team_member_top h2,
+	.team_member_top p,
+	.menber_designation h2,
+	.menber_designation p{
+		color: #000 !important;
+	}
+	.team_member_top p{
+		padding: 25px 0;
+	}
+	.feature_description {
+	    margin-top: 30px;
+	}
+	/*contact css*/
+	#contact .feature{
+		padding-top: 50px;
+	}
+	/*map css*/
+	.location{
+		padding-bottom: 130px;
+	}
+	.location_info {
+	    padding: 20px 0 20px 20px;
+	    width: 270px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	    bottom: -10%;
+	}
+	.location_info p {
+	    padding-right: 0;
+	}
+	/*footer top*/
+	.ins_gallery {
+	    max-width: 300px;
+	}
+	.ft_ins,
+	.ft_newsletter{
+		padding-top: 50px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*common css*/
+	.custom_btn {
+	    line-height: 45px;
+	    margin-top: 20px;
+	}
+	.feature_title{
+		font-size: 32px;
+	}
+	/*header css*/
+	#header .container-fluid{
+	    position: relative;
+	}
+	.header_menu {
+	    margin: 20px -35px 0;
+	    padding: 0 34px;
+	    background-color: #000;
+	    position: absolute;
+	    width: 110%;
+	    top: 38px;
+	}
+	.header_menu ul li{
+	    padding-top: 20px;
+	}
+	/*slider css start*/
+	.c_slider_indicators{
+		flex-direction: row;
+		left: 0;
+	}
+	.c_slider_indicators button{
+		margin: 0 10px !important;
+	}
+	.slider_text h1{
+	    font-size: 48px;
+	    line-height: 55px;
+	}
+	.slider_text p{
+	    margin: 0;
+	    font-size: 16px;
+	}
+	.slider_prev_btn,
+	.slider_next_btn{
+		display: none;
+	}
+	/*feature 1*/
+	.f_bottom{
+	    margin: 30px 50px 0;
+	    box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.11);
+	}
+	.feature_bottom_btn{
+	    visibility: visible;
+	    opacity: 1;
+	}
+	/*feature 2 css*/
+	.about{
+		margin-left: 0;
+		margin-bottom: 50px;
+	}
+	.about::before{
+	    content: "";
+	    display: none;
+	}
+	#team_member_carousel{
+	    padding: 0;
+	}
+	#team_member_carousel .carousel-indicators{
+	    bottom: -40px;
+	}
+	#team_member_carousel .carousel-indicators button{
+		margin: 0 5px !important;
+		width: 15px !important;
+		height: 15px !important;
+		background-color: #999999 !important;
+		border: 3px solid #cdcbcb !important;
+		border-radius: 50%;
+	}
+	#team_member_carousel .carousel-indicators button:hover{
+		opacity: 1;
+	}
+	.team_member_top h2,
+	.team_member_top p,
+	.menber_designation h2,
+	.menber_designation p{
+		color: #000 !important;
+	}
+	.team_member_top p{
+		padding: 25px 0;
+	}
+	.feature_description{
+	    margin-top: 30px;
+	}
+	/*contact css start*/
+	#contact .feature{
+		padding-top: 50px;
+	}
+	/*map css*/
+	.location{
+		padding-bottom: 130px;
+	}
+	.location_info {
+	    padding: 20px 0 20px 20px;
+	    width: 320px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    right: 0;
+	    left: 0;
+	    bottom: -10%;
+	}
+	.location_info p{
+	    padding-right: 0;
+	}
+	/*footer top*/
+	.ins_gallery{
+	    max-width: 380px;
+	}
+	.ft_ins,
+	.ft_newsletter{
+		padding-top: 50px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){
+	/*common css*/
+	.custom_btn{
+	    line-height: 45px;
+	    margin-top: 20px;
+	}
+	/*header css*/
+	#header .container-fluid{
+	    position: relative;
+	}
+	.header_menu{
+	    margin: 20px -35px 0;
+	    padding: 0 34px;
+	    background-color: #000;
+	    position: absolute;
+	    width: 110%;
+	    top: 38px;
+	}
+	.header_menu ul li{
+	    padding-top: 20px;
+	}
+	.header_menu ul li a.active{
+		color: #97ccfe !important;
+	}
+	/*slider css start*/
+	.slider_text h1{
+	    font-size: 48px;
+	    line-height: 55px;
+	}
+	.slider_text p{
+	    margin: 0;
+	    font-size: 16px;
+	}
+	.slider_prev_btn,
+	.slider_next_btn{
+	    font-size: 20px;
+	    width: 40px;
+	    height: 35px;
+	}
+	/*feature 1 css*/
+	.custom_btn{
+	    padding: 0 36px;
+	}
+	.f_bottom {
+	    margin: 30px 150px 0 150px;
+	    box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.11);
+	}
+	.feature_bottom_btn{
+	    visibility: visible;
+	    opacity: 1;
+	}
+	
+	/*feature 2 css*/
+	.about{
+		margin-left: 0;
+		margin-bottom: 50px;
+	}
+	.about::before{
+	    content: "";
+	    display: none;
+	}
+	#team_member_carousel{
+	    padding: 0;
+	}
+	#team_member_carousel .carousel-indicators{
+	    bottom: -40px;
+	}
+	#team_member_carousel .carousel-indicators button{
+		margin: 0 5px !important;
+		width: 15px !important;
+		height: 15px !important;
+		background-color: #999999 !important;
+		border: 3px solid #cdcbcb !important;
+		border-radius: 50%;
+	}
+	#team_member_carousel .carousel-indicators button:hover{
+		opacity: 1;
+	}
+	.team_member_top h2,
+	.team_member_top p,
+	.menber_designation h2,
+	.menber_designation p{
+		color: #000 !important;
+	}
+	.team_member_top p{
+		padding: 25px 0;
+	}
+	.feature_description{
+	    margin-top: 30px;
+	}
+	/*contact css*/
+	#contact .feature{
+		padding-top: 50px;
+	}
+	/*map css*/
+	.location_info{
+	  left: 0;
+	  bottom: 30%;
+	}
+	/*footer top*/
+	.ft_newsletter{
+		padding-top: 50px;
+	}
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+	/*slider css*/
+	.slider_text h1{
+		font-size: 50px;
+		line-height: 70px;
+	}
+	/*feature 2 css*/
+	.about{
+		margin-left: 0;
+		margin-bottom: 50px;
+	}
+	.about::before{
+	    content: "";
+	    display: none;
+	}
+	#team_member_carousel{
+	    padding: 0;
+	}
+	#team_member_carousel .carousel-indicators{
+	    bottom: -40px;
+	}
+	#team_member_carousel .carousel-indicators button{
+		margin: 0 5px !important;
+		width: 15px !important;
+		height: 15px !important;
+		background-color: #999999 !important;
+		border: 3px solid #cdcbcb !important;
+		border-radius: 50%;
+	}
+	#team_member_carousel .carousel-indicators button:hover{
+		opacity: 1;
+	}
+	.team_member_top h2,
+	.team_member_top p,
+	.menber_designation h2,
+	.menber_designation p{
+		color: #000000 !important;
+	}
+	/*map css*/
+	.location_info{
+	  left: 0;
+	  bottom: 40%;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px){
+	/*contact css*/
+	#contact .feature{
+		padding-right: 130px;
+	}
+}
